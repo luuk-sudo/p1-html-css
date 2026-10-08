@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vierkant1 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #0823F9;
+}
+
+.vierkant2 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+}
+
+.vierkant3 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #FF0B00;
+}
+
+.vierkant4 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #007F1D;
+}

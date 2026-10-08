@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>abonnementsformulier van Hello Hi.</title>
+</head>
+
+<body>
+    <h1>Abonnementsformulier voor Hallo Hi!</h1>
+    <p>voornaam</p>
+    <form action="">
+        <p><input type="text" pattern="[A-Za-z]{}"></p>
+        <p>tussenvoegsel</p>
+        <p><input type="text" pattern="[A-Za-z]{}"></p>
+        <p>achternaam</p>
+        <p><input type="text" pattern="[A-Za-z]{}"></p>
+        <legend>geslacht:</legend>
+
+        <div>
+            <input type="radio" id="Hdr." name="gender" value="Hdr." checked />
+            <label for="Hdr.">Hdr.</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Mevr" name="gender" value="Mevr" />
+            <label for="Mevr">Mevr</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Anders" name="gender" value="Anders" />
+            <label for="Anders">Anders</label>
+        </div>
+        <p>straatnaam + huisnummer</p>
+        <p><input type="text"></p>
+        <p>postcode</p>
+        <p><input type="text" pattern="[A-Za-z0-9]{6}"></p>
+        <p>woonplaats</p>
+        <p><input type="text"></p>
+        <p>land</p>
+        <label for="landen">kies een land
+            <select name="land" id="land">
+                <option value="Nederland">Nederland</option>
+                <option value="UK">UK</option>
+                <option value="Belgie">Belgie</option>
+                <option value="Luxemburg">Luxemburg</option>
+                <option value="Duitsland">Duitsland</option>
+                <option value="Frankrijk">Frankrijk</option>
+                <option value="Andere">Andere</option>
+            </select>
+        </label>
+        <p>IBAN-nummer</p>
+        <p><input type="text" pattern="NL[0-9]{2}[A-Z]{4}[0-9]{10}"></p>
+        <p>Type abonnement</p>
+        <p><input type="checkbox">Mobiel</p>
+        <p><input type="checkbox">Glasvezel</p>
+        <p><input type="checkbox">TV</p>
+        <p>Datum van ingang abonnement</p>
+        <p><input type="date" min="2026-09-21"></p>
+        <p>Looptijd abonnement</p>
+        <p>
+            <label for="aantal maanden">aantal maanden
+                <select name="aantal maanden" id="aantal maanden">
+                    <option value="6 maanden">6 maanden</option>
+                    <option value="12 maanden">12 maanden</option>
+                    <option value="18 maanden">18 maanden</option>
+                    <option value="24 maanden">24 maanden</option>
+                </select>
+            </label>
+        </p>
+        <p>Aantal gebruikers op het abonnement</p>
+        <p><input type="number" min="0" max="4"></p>
+        <p>E-mailadres</p>
+        <p><input type="email" required></p>
+        <p>wachtwoord</p>
+        <p><input type="password" id="fakePassword" placeholder="Enter Password" />
+        <p><input type="submit" value="sluit abbonement af"></p>
+    </form>
+</body>
+
+</html>

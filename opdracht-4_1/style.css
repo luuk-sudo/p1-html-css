@@ -1,0 +1,37 @@
+@font-face {
+    font-family: test;
+    src: url("ftltlt-webfont.woff");
+}
+
+
+h2 {
+    font-size: 56px;
+    color: #9000ff;
+    font-weight: bold;
+    font-family: test;
+}
+
+p {
+    color: #0d0303;
+    font-size: 28px;
+    font-family: test;
+}
+
+a {
+    color: #7272dd;
+    text-decoration: none;
+    font-family: test;
+}
+
+p:first-of-type,
+p:nth-of-type(2) {
+    font-weight: bold;
+    font-family: test;
+}
+ul{
+    font-family: test;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+}
