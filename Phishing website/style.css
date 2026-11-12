@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("discord background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: "Inter", sans-serif;
+}
+section.login{
+    background-color: #353A3E;  
+    width: 55%;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.login-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.login-form,
+.qr-column {
+    flex: 1;
+}
+
+.login-form > h2,
+.login-form > p:first-of-type {
+    text-align: center;
+}
+
+.qr-column {
+    text-align: center;
+}
+
+section.login input {
+    background-color: #1F2324;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+}
+
+section.login input[type="submit"] {
+    background-color: #5865F2;
+    width: 100%;
+    height: 44px;
+    padding: 0 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+section.login img {
+    display: block;
+    width: 220px;
+    margin: 0 auto 24px;
+}
+p{
+    color: #8F9297;
+}
+h2{
+    color: #E5E8EA;
+}
+a{
+    color: #1582B1;
+    text-decoration: none;
+}
